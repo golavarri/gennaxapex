@@ -29,13 +29,13 @@ body {
 
 .Menu {
   text-align: right;
-  padding: 1rem;
+  padding: 2rem 2rem 0 0;
 }
 
 .Menu-button {
   background-color: transparent;
   color: var(--color-black);
-  font-size: 3vh;
+  font-size: 5vh;
   border: none;
 }
 
@@ -199,6 +199,7 @@ body {
   font-size: 4.7rem;
   text-align: center;
   z-index: 1; /* make sure it's above the image */
+  white-space: nowrap; /* prevent text wrapping */
 }
 
 @keyframes fadeIn {
