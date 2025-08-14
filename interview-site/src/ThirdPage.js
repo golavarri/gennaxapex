@@ -35,19 +35,16 @@ const ThirdPage = () => {
                 Why Genna @ Apex?
             </h1>
 
-            /* okay a note on what will go here:
-            I think it should be a video clip where I say the following:
-
-            -- Passionate about enabling universal access through tech
-            (web accessibility in high school)
-            -- I learn quickly and apex emphasizes continued education. First
-            time working in finance and learned a ton in 10 weeks, excited to see
-            what all I can pick up in a year with aldp, and longer with the company
-            at large
-            -- I'm a creative person, I like thinking about things in creative
-            ways and I resonate with the apex goal of innovating industry-leading
-            tech solutions
-            */
+            <div className="Third-page-content">
+                <iframe
+                    width="1024"
+                    height="576"
+                    src="https://www.youtube.com/embed/g0Ta2Fv2sz4"
+                    title="YouTube video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>            
+            </div>
 
             <div className="btn-container">
 

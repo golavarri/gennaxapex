@@ -219,6 +219,12 @@ body {
   }
 }
 
+.Third-page-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .Fourth-page-content {
   margin: 0 5vh;
 }
