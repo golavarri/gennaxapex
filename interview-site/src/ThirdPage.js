@@ -25,12 +25,13 @@ const ThirdPage = () => {
                             <h2 className="Page-two-menu"><a href="/page-two" style={{color: "black", textDecoration: "none"}}>Who is Genna?</a></h2>
                             <h2 className="Page-three-menu"><a href="/page-three" style={{color: "black", textDecoration: "none"}}>Why Genna @ Apex?</a></h2>
                             <h2 className="Page-four-menu"><a href="/page-four" style={{color: "black", textDecoration: "none"}}>How's Genna using AI?</a></h2>
+                            <h2 className="Page-five-menu"><a href="/page-five" style={{color: "black", textDecoration: "none"}}>Before you go...</a></h2>
                         </div>
                     </div>
                 )}
             </div>
 
-            <h1 className="Third-page-hd">
+            <h1 className="Page-hd">
                 Why Genna @ Apex?
             </h1>
 

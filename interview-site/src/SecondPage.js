@@ -1,33 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-
-
-const FlipTile = ({ imageSrc, imageAlt, text, onFirstClick }) => {
-  const [flipped, setFlipped] = useState(false);
-
-  const [clickedOnce, setClickedOnce] = useState(false);
-
-  const handleClick = () => {
-    setFlipped(!flipped);
-    if (!clickedOnce) {
-      setClickedOnce(true);
-      onFirstClick();
-    }
-  };
-
-  return (
-    <div className={`tile ${flipped ? 'flipped' : ''}`} onClick={handleClick}>
-      <div className="tile-inner">
-        <div className="tile-front">
-          <img src={imageSrc} alt={imageAlt} />
-        </div>
-        <div className="tile-back">
-          <p className="tile-text">{text}</p>
-        </div>
-      </div>
-    </div>
-  );
-};
+import FlipTile from './Fliptile';
 
 const SecondPage = () => {
 
@@ -61,6 +34,7 @@ const SecondPage = () => {
                             <h2 className="Page-two-menu"><a href="/page-two" style={{color: "black", textDecoration: "none"}}>Who is Genna?</a></h2>
                             <h2 className="Page-three-menu"><a href="/page-three" style={{color: "black", textDecoration: "none"}}>Why Genna @ Apex?</a></h2>
                             <h2 className="Page-four-menu"><a href="/page-four" style={{color: "black", textDecoration: "none"}}>How's Genna using AI?</a></h2>
+                            <h2 className="Page-five-menu"><a href="/page-five" style={{color: "black", textDecoration: "none"}}>Before you go...</a></h2>
                         </div>
                     </div>
                 )}
@@ -68,11 +42,11 @@ const SecondPage = () => {
 
             <div className="Second-page-content">
 
-                <h1 className="Second-page-hd">
+                <h1 className="Page-hd">
                         Genna Olavarri...
                 </h1>
 
-                <div className="Genna-tiles">
+                <div className="Tiles">
 
                     <FlipTile
                         imageSrc="/images/professional.jpg"
@@ -120,7 +94,7 @@ const SecondPage = () => {
                     
                     <div className="btn-container">
 
-                        <h2 className="Second-page-hd">
+                        <h2 className="Page-hd">
                             ...is a great fit at Apex!
                         </h2>
 

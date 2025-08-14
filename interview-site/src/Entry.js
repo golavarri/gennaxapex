@@ -26,6 +26,7 @@ const Entry = () => {
                             <h2 className="Page-two-menu"><a href="/page-two" style={{color: "black", textDecoration: "none"}}>Who is Genna?</a></h2>
                             <h2 className="Page-three-menu"><a href="/page-three" style={{color: "black", textDecoration: "none"}}>Why Genna @ Apex?</a></h2>
                             <h2 className="Page-four-menu"><a href="/page-four" style={{color: "black", textDecoration: "none"}}>How's Genna using AI?</a></h2>
+                            <h2 className="Page-five-menu"><a href="/page-five" style={{color: "black", textDecoration: "none"}}>Before you go...</a></h2>
                         </div>
                     </div>
                 )}
@@ -34,29 +35,30 @@ const Entry = () => {
 
             <div className="Entry-point-container"
             >
-                <h1 className="Intro-hd">
-                    Hi there!
-                </h1>
-
-                <p className="Intro-p" style={{fontSize: "3vh"}}>
-                    Welcome to an interactive introduction to...
-                </p>
 
                 <section className="Wavy-banner">
                     <div className="banner-wrapper">
                         <img src="/images/banner.svg" alt="Wavy Banner" className="banner-image" />
-                        <h2 className="Intro-sbhd">
+                        <h1 className="Intro-sbhd">
                             Genna Olavarri @ Apex!
-                        </h2>
+                        </h1>
                     </div>
                 </section>
+
+                <h2 className="Intro-hd">
+                    Hi there!
+                </h2>
+
+                <p className="Intro-p" style={{fontSize: "3vh"}}>
+                    Welcome to an interactive introduction to Genna @ Apex!
+                </p>
                 
-                <p className="Intro-p" style={{fontSize: "3vh", textAlign: "right"}}>
+                <p className="Intro-p" style={{fontSize: "3vh"}}>
                     Please explore and click through the following site to learn <br />  more about Genna and 
-                    how she fits here at Apex. 
+                    how she fits here at Apex. <br /> This is a React app writen and designed by Genna.
                 </p>
 
-                <div className="btn-container">
+                <div className="btn-container" style={{textAlign: "left", marginLeft: "5vw"}}>
                     <a href="/page-two">
                         <button className="Next-btn" style={{ marginTop: "5rem"}}>
                             Wait, who's Genna?

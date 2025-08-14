@@ -17,6 +17,7 @@ import Entry from './Entry.js';
 import SecondPage from './SecondPage.js';
 import ThirdPage from './ThirdPage.js';
 import FourthPage from './FourthPage.js';
+import FifthPage from './FifthPage.js';
 
 /*--------------------------------------------------------------------------------------------------*/
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/page-two" element={<SecondPage />} />
         <Route path="/page-three" element={<ThirdPage />} />
         <Route path="/page-four" element={<FourthPage />} />
+        <Route path="/page-five" element={<FifthPage />} />
       </Routes>
     </Router>
   );

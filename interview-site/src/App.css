@@ -81,12 +81,17 @@ body {
 }
 
 .Intro-hd {
-  padding-left: 10vh;
-  font-size: 10vh;
+  padding-right: 10vh;
+  font-size: 8vh;
+  text-align: right;
+  margin-top: -5vh;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .Intro-p {
-  padding: 0 10vh ;
+  padding: 2vh 10vh ;
+  text-align: right;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .Second-page {
@@ -99,7 +104,7 @@ body {
   margin-top: 10vh;
 }
 
-.Second-page-hd {
+.Page-hd {
   font-size: var(--font-size-large);
   margin-bottom: 2rem;
   font-weight: bold;
@@ -107,7 +112,7 @@ body {
   text-align: center;
 }
 
-.Genna-tiles {
+.Tiles {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -177,6 +182,7 @@ body {
   position: relative;
   width: 100%;
   animation: fadeIn 1.5s ease-in-out;
+  padding-top: 2vh;
 }
 
 .banner-wrapper {
@@ -211,6 +217,83 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.Fourth-page-content {
+  margin: 0 5vh;
+}
+
+.Fourth-page-p {
+  position: flex;
+  color: black;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-align: center;
+  white-space: wrap;
+}
+
+/* Modal.css */
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 60vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.Modals {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically if needed */
+  gap: 2rem;                  /* space between images */
+  width: 100%;                /* full width of the container */
+}
+
+.modal-tile {
+  width: 50vh;               /* fixed width */
+  height: 50vh;              /* fixed height to make square */
+  object-fit: cover;          /* ensures the image fills the square without distortion */
+  border-radius: 8px;         /* optional styling */
+  cursor: pointer;            /* clickable */
+}
+
+.Fifth-page {
+  margin: 0 10vh;
+  background: white;
+  text-align: center;
 }
 
 
