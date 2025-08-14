@@ -18,7 +18,7 @@ const FlipTile = ({ imageSrc, imageAlt, text, onFirstClick }) => {
     <div className={`tile ${flipped ? 'flipped' : ''}`} onClick={handleClick}>
       <div className="tile-inner">
         <div className="tile-front">
-          <img src={imageSrc} alt={imageAlt} />
+          <img src={imageSrc} alt={imageAlt} loading="lazy"/>
         </div>
         <div className="tile-back">
           <p className="tile-text">{text}</p>

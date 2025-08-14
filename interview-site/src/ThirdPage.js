@@ -40,6 +40,7 @@ const ThirdPage = () => {
                     width="1024"
                     height="576"
                     src="https://www.youtube.com/embed/g0Ta2Fv2sz4"
+                    loading="lazy"
                     title="YouTube video"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
