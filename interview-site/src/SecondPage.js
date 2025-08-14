@@ -1,6 +1,20 @@
-import React, { useState } from 'react';
+/*--------------------------------------------------------------------------------------------------*
+ *                                         Who is Genna?                                            *
+ *                                         Genna Olavarri                                           *
+ *                                           2025-08-13                                             *
+ *--------------------------------------------------------------------------------------------------*/
+
+// React imports
+import { useState } from 'react';
+
+// Local imports
 import './App.css';
 import FlipTile from './Fliptile';
+
+/*--------------------------------------------------------------------------------------------------*/
+// This is the second page of the React app, which introduces Genna Olavarri and
+// provides a brief overview of her background and who she is as an engineer.
+/*--------------------------------------------------------------------------------------------------*/
 
 const SecondPage = () => {
 

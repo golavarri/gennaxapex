@@ -1,15 +1,15 @@
 /*--------------------------------------------------------------------------------------------------*
  *                                         Main React App                                           *
  *                                         Genna Olavarri                                           *
+ *                                           2025-08-13                                             *
  *--------------------------------------------------------------------------------------------------*/
 
-/* This is the main React app component.
+/* This is the main React app component. This is the entry point for a linear site with multiple pages.
 
 /*--------------------------------------------------------------------------------------------------*/
 
 // React imports
 import './App.css';
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // Local imports

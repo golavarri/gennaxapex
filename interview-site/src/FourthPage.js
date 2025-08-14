@@ -1,6 +1,20 @@
-import React, { useState } from 'react';
+/*--------------------------------------------------------------------------------------------------*
+ *                                          Genna on AI                                             *
+ *                                         Genna Olavarri                                           *
+ *                                           2025-08-13                                             *
+ *--------------------------------------------------------------------------------------------------*/
+
+// React imports
+import { useState } from 'react';
+
+// Local imports
 import './App.css';
 import Modal from './Modal';
+
+/*--------------------------------------------------------------------------------------------------*/
+// This is the fourth page of the React app, which discusses how Genna uses AI in her work
+// and personal life. 
+/*--------------------------------------------------------------------------------------------------*/
 
 const FourthPage = () => {
 

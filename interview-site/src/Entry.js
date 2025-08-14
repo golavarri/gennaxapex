@@ -1,5 +1,20 @@
-import React, { useState } from 'react';
+/*--------------------------------------------------------------------------------------------------*
+ *                                          Splash page                                             *
+ *                                         Genna Olavarri                                           *
+ *                                           2025-08-13                                             *
+ *--------------------------------------------------------------------------------------------------*/
+
+// React imports
+import { useState } from 'react';
+
+// Local imports
 import './App.css';
+
+/*--------------------------------------------------------------------------------------------------*/
+// This is the entry point for the React app, which serves as a splash page with navigation
+// to other pages in the site. It includes a menu that can be toggled open and closed, and links to
+// other pages in the site.
+/*--------------------------------------------------------------------------------------------------*/
 
 const Entry = () => {
 

@@ -1,8 +1,12 @@
 /*--------------------------------------------------------------------------------------------------*
  *                                        App CSS Configs                                           *
  *                                         Genna Olavarri                                           *
- *                                            11-2024                                               *
+ *                                           2025-08-13                                             *
  *--------------------------------------------------------------------------------------------------*/
+
+/* This file is a bit disorganized. For the sake of time, all CSS is in one file. 
+   It is recommended to split this into multiple files in the future for better organization and
+  maintainability. */
 
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 

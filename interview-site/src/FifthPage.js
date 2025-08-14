@@ -1,5 +1,20 @@
-import React, { useState } from 'react';
+/*--------------------------------------------------------------------------------------------------*
+ *                                          Wrap up page                                            *
+ *                                         Genna Olavarri                                           *
+ *                                           2025-08-13                                             *
+ *--------------------------------------------------------------------------------------------------*/
+
+// React imports
+import { useState } from 'react';
+
+// Local imports
 import './App.css';
+
+/*--------------------------------------------------------------------------------------------------*/
+// This is the fifth page of the React app, which serves as a wrap-up page with
+// links to Genna's personal website and the source code repository. It also provides a brief
+// summary of Genna's ongoing internship at Apex and her future plans.
+/*--------------------------------------------------------------------------------------------------*/
 
 const FifthPage = () => {
 

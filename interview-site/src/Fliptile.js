@@ -1,5 +1,18 @@
-import React, { useState } from 'react';
+/*--------------------------------------------------------------------------------------------------*
+ *                                         Fliptile util                                            *
+ *                                         Genna Olavarri                                           *
+ *                                           2025-08-13                                             *
+ *--------------------------------------------------------------------------------------------------*/
+
+// React imports
+import { useState } from 'react';
+
+// Local imports
 import './App.css';
+
+/*--------------------------------------------------------------------------------------------------*/
+// This is a reusable flip tile component that can be used to display images and text.
+/*--------------------------------------------------------------------------------------------------*/
 
 const FlipTile = ({ imageSrc, imageAlt, text, onFirstClick }) => {
   const [flipped, setFlipped] = useState(false);

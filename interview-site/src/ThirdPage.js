@@ -1,5 +1,19 @@
-import React, { useState } from 'react';
+/*--------------------------------------------------------------------------------------------------*
+ *                                       Why Genna @ Apex?                                          *
+ *                                         Genna Olavarri                                           *
+ *                                           2025-08-13                                             *
+ *--------------------------------------------------------------------------------------------------*/
+
+// React imports
+import { useState } from 'react';
+
+// Local imports
 import './App.css';
+
+/*--------------------------------------------------------------------------------------------------*/
+// This is the third page of the React app, which provides a video introduction to why Genna fits
+// the culture at Apex.
+/*--------------------------------------------------------------------------------------------------*/
 
 const ThirdPage = () => {
 
